@@ -1,0 +1,6 @@
+# encoding: UTF-8
+
+EMPTY_STRING = ""
+EMPTY_UNICODE = u""
+EMPTY_FLOAT = 0.0
+EMPTY_INT = 0

@@ -49,7 +49,7 @@ A = tf.Variable(tf.random_normal(shape=[2,1]))
 b = tf.Variable(tf.random_normal(shape=[1,1]))
 
 # Declare model operations
-model_output = tf.sub(tf.matmul(x_data, A), b)
+model_output = tf.subtract(tf.matmul(x_data, A), b)
 
 # Declare vector L2 'norm' function squared
 l2_norm = tf.reduce_sum(tf.square(A))
